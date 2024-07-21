@@ -1,0 +1,60 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('https://i.imgur.com/3j9Cojq.jpeg');
+  /* URL de una imagen de la luna llena */
+  background-size: cover;
+  text-align: center;
+  color: #000;
+}
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Fondo translúcido para mejor legibilidad */
+  padding: 20px;
+  border-radius: 10px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.wheel-container {
+  position: relative;
+}
+#spinButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+.popup-content {
+  background-color: #ffcccb;
+  /* Rosa pastel */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  width: 80%;
+  max-width: 400px;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
